@@ -1,0 +1,23 @@
+# ROS 2 / colcon
+build/
+install/
+log/
+*.pyc
+__pycache__/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Large raw datasets
+*.ply
+*.pcd
+*.las
+*.laz
+
+# Python
+env/
+venv/
+.venv/
