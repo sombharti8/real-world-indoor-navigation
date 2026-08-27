@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <model name="scanned_environment">
+    <static>true</static>
+    <link name="environment_link">
+      <collision name="collision">
+        <geometry><mesh><uri>model://scanned_environment/meshes/environment.obj</uri><scale>1 1 1</scale></mesh></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><mesh><uri>model://scanned_environment/meshes/environment.obj</uri><scale>1 1 1</scale></mesh></geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
