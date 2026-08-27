@@ -1,0 +1,16 @@
+DATASET INSPECTION
+==================
+Student: Som Bharti
+Enrollment: 25MMT0008
+
+Input: map_ros_cloud.ply
+Format: Binary Little Endian PLY
+Points: 2,338,923
+Geometry: point cloud; face count = 0
+Approximate bounds:
+X: -7.085 to 21.168 m  (28.253 m)
+Y: -5.436 to 11.109 m  (16.545 m)
+Z: -1.364 to 3.486 m   (4.850 m)
+Attributes: XYZ, RGB, normals, curvature
+
+Conclusion: The scan is a metre-scale indoor point cloud. Since it contains no polygon faces, surface reconstruction is required before Gazebo collision geometry can be created.
