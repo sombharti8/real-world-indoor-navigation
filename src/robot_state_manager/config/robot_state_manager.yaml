@@ -1,0 +1,6 @@
+robot_state_manager:
+  ros__parameters:
+    publish_rate_hz: 10.0
+    linear_velocity_threshold: 0.50
+    angular_velocity_threshold: 1.00
+    goal_frame: map
